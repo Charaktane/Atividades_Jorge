@@ -15,8 +15,7 @@ print("Lista em ordem decrescente:", sorted(L, reverse=True))
 
 # 2. Gere uma lista contendo os múltiplos de 3 entre 1 e 50
 
-multiplos_de_3 = [x for x in range(1, 50) if x % 3 == 0]
-#Ele vai criar uma sequência com o range(1,50)  = valores de 1 até 50
-# se o X for divisível por três e o resto for 0, ele vai ser um dos selecionados para o print
-
+multiplos_de_3 = [x for x in range(3, 51, 3) 
+#Ele vai criar uma sequência com o range(3,51,3)  = valores de 3 até 51 com intervalo de 3
+                  
 print("Múltiplos de 3 entre 1 e 50:", multiplos_de_3)
